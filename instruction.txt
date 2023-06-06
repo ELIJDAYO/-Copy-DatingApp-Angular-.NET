@@ -1,0 +1,8 @@
+Section 2
+    dotnet --info
+    dotnet new list
+    dotnet new sln
+        dotnet sln -h
+        dotnet sln list
+    dotnet new webapi -n API
+    dotnet sln add API
