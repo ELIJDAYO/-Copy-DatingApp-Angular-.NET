@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
 
-[ApiController]
+[ApiController] //contains end-points, receive http req and return res
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {

@@ -8,3 +8,14 @@ Section 2
     dotnet sln add API
 
     install CS extension
+    
+    cd API dotnet run (controller listening to an end point)
+
+    dotnet run -lp https
+    (need ssl cert?)
+
+    after editing some settings.json
+    dotnet run
+
+    after removing ItemGroup from api.csproj
+    dotnet restore
