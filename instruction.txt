@@ -6,3 +6,5 @@ Section 2
         dotnet sln list
     dotnet new webapi -n API
     dotnet sln add API
+
+    install CS extension
