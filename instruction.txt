@@ -31,3 +31,5 @@ Section 2
     if you see err do "dotnet build"
 
     cd API, dotnet ef database -h, dotnet ef database update
+
+    install sqlite extension, >sqlite: open db
