@@ -22,3 +22,9 @@ Section 2
 
     installed nuget gallery extension
     crtl+p, >microsoft.entityFrameWork, install sqlite to API.csproj
+
+    cd API, dotnet tool list -g
+    dotnet tool install --global dotnet-ef --version 7.0.5
+
+    dotnet ef, dotnet ef migrations add InitialCreate -o Data/Migrations
+    if you see err do "dotnet build"
