@@ -19,3 +19,6 @@ Section 2
 
     after removing ItemGroup from api.csproj
     dotnet restore
+
+    installed nuget gallery extension
+    crtl+p, >microsoft.entityFrameWork, install sqlite to API.csproj
