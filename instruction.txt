@@ -32,4 +32,7 @@ Section 2
 
     cd API, dotnet ef database -h, dotnet ef database update
 
-    install sqlite extension, >sqlite: open db
+    install sqlite extension, >sqlite: open db, then insert queries
+
+    using c# extension, make naming convention easier by _
+    after completing the source code of controller, dotnet watch run, http://localhost:5001/api/users, or use postman to verify api res and req
