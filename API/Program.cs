@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // opt passed in fun
 builder.Services.AddDbContext<DataContext>(opt => {
-    opt.UseSqlite(builder.Configuration.GetConnectionString("Default"));
+    opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
 var app = builder.Build();
