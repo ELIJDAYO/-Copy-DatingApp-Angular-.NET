@@ -39,3 +39,11 @@ Section 2
 
     it tells which sdk is being used for this project, do this command when creating a project
     dotnet new globaljson
+
+
+    section 3: angular used for client-side web application
+    npm install -g @angular/cli@14
+
+    ng new client, select y and css
+
+    cd client, ng serve (to execute angular application)
