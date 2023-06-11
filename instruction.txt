@@ -36,3 +36,6 @@ Section 2
 
     using c# extension, make naming convention easier by _
     after completing the source code of controller, dotnet watch run, http://localhost:5001/api/users, or use postman to verify api res and req
+
+    it tells which sdk is being used for this project, do this command when creating a project
+    dotnet new globaljson
