@@ -47,3 +47,5 @@ Section 2
     ng new client, select y and css
 
     cd client, ng serve (to execute angular application)
+
+    from extension download Angular Language Service

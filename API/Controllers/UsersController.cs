@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
+    // send request from client to this controller
     [ApiController] 
     [Route("api/[controller]")] // GET .../api/users, is used to access this controller, endpoint
     public class UsersController : ControllerBase
