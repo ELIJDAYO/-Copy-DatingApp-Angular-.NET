@@ -46,6 +46,12 @@ Section 2
 
     ng new client, select y and css
 
+
+Section 3
     cd client, ng serve (to execute angular application)
 
     from extension download Angular Language Service
+
+    add cors to user api will be accepted by the browser
+
+    cd to API, and "dotnet watch run" for API req
