@@ -65,3 +65,8 @@ Section 3
     ng add ngx-bootstrap
     npm install @angular/platform-browser
     cd Client to restart the BS config
+
+    install Chocolatey from browser to powershell, and go to mkcert github to install packages for windows
+    mkdir ssl, run powershell as an admin, cd ssl, choco install mkcert, mkcert -install, mkcert localhost
+
+    run ng serve with ssl so modify the angular.json, then restart
