@@ -67,8 +67,9 @@ Section 3
     cd Client to restart the BS config
 
     install Chocolatey from browser to powershell, and go to mkcert github to install packages for windows
-    mkdir ssl, run powershell as an admin, cd ssl, choco install mkcert, mkcert -install, mkcert localhost
+    run powershell as an admin, mkdir ssl in client folder, cd ssl, choco install mkcert, mkcert -install, mkcert localhost, so there should be pem files in DatingApp/client/ssl
+    if user data is not displayed, dotnet dev-certs https --clean, dotnet dev-certs https, dotnet dev-certs https --trust
 
     run ng serve with ssl so modify the angular.json, then restart
 
-    download the sslcert from the coursefile, import to currentuser, copy server.crt and server.key to client/ssl dir
+    download the ssl cert from the coursefile, import to currentuser, copy server.crt and server.key to DatingApp/ssl dir

@@ -2,7 +2,7 @@ obj
 API/bin
 appsettings.json
 client/.vscode
-ssl/localhost-key.pem
-ssl/localhost.pem
-client/ssl/server.crt
-client/ssl/server.key
+client/ssl/localhost-key.pem
+client/localhost.pem
+ssl/server.crt
+ssl/server.key
