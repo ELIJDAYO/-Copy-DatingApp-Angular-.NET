@@ -57,3 +57,11 @@ Section 3
     cd to API, and "dotnet watch run" for API req
 
     API returns variable name in camel case
+
+    cd Client
+    npm uninstall @schematics/angular
+    ng version
+    npm install ngx-bootstrap@9
+    ng add ngx-bootstrap
+    npm install @angular/platform-browser
+    cd Client to restart the BS config
