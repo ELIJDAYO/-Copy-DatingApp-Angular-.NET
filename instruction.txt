@@ -70,3 +70,5 @@ Section 3
     mkdir ssl, run powershell as an admin, cd ssl, choco install mkcert, mkcert -install, mkcert localhost
 
     run ng serve with ssl so modify the angular.json, then restart
+
+    download the sslcert from the coursefile, import to currentuser, copy server.crt and server.key to client/ssl dir

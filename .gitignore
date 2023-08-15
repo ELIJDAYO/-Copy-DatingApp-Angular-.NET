@@ -4,3 +4,5 @@ appsettings.json
 client/.vscode
 ssl/localhost-key.pem
 ssl/localhost.pem
+client/ssl/server.crt
+client/ssl/server.key
