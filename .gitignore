@@ -3,6 +3,6 @@ API/bin
 appsettings.json
 client/.vscode
 client/ssl/localhost-key.pem
-client/localhost.pem
+client/ssl/localhost.pem
 ssl/server.crt
 ssl/server.key
