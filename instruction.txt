@@ -73,3 +73,9 @@ Section 3
     run ng serve with ssl so modify the angular.json, then restart
 
     download the ssl cert from the coursefile, import to currentuser, copy server.crt and server.key to DatingApp/ssl dir
+
+Section 4
+
+    disable hot-reload, dotnet watch --no-hot-reload
+    stop api from running to do migration, cd API,
+    delete migration folder, dotnet ef database drop, dotnet ef migrations add UserPasswordAdded
