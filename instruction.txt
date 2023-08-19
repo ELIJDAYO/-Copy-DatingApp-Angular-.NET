@@ -81,3 +81,5 @@ Section 4
     delete migration folder, dotnet ef database drop, dotnet ef migrations add UserPasswordAdded
     
     if postman does not work try refreshing the API
+
+    (debugger) >.NET: Generate Assets for Build and Debug, run API and client, select .NET Core Attach and run, then put mark where to end debugging, post user from postman 
