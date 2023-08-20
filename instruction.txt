@@ -85,3 +85,5 @@ Section 4
     (debugger) >.NET: Generate Assets for Build and Debug, run API and client, select .NET Core Attach and run, then put mark where to end debugging, post user from postman 
 
     stop running API and client, cd API, delete migration folder, dotnet ef database drop, dotnet ef migrations add UsernameRequired
+
+    >nuget, search, Sys.IdentityModel.Token.Jwt, and install this package
