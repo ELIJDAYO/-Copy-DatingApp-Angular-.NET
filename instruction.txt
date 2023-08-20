@@ -78,8 +78,10 @@ Section 4
 
     disable hot-reload, dotnet watch --no-hot-reload
     stop api from running to do migration, cd API,
-    delete migration folder, dotnet ef database drop, dotnet ef migrations add UserPasswordAdded
+    stop running API and client, cd API, delete migration folder, dotnet ef database drop, dotnet ef migrations add UserPasswordAdded
     
     if postman does not work try refreshing the API
 
     (debugger) >.NET: Generate Assets for Build and Debug, run API and client, select .NET Core Attach and run, then put mark where to end debugging, post user from postman 
+
+    stop running API and client, cd API, delete migration folder, dotnet ef database drop, dotnet ef migrations add UsernameRequired
