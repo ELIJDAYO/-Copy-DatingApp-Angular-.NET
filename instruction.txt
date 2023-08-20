@@ -87,3 +87,6 @@ Section 4
     stop running API and client, cd API, delete migration folder, dotnet ef database drop, dotnet ef migrations add UsernameRequired
 
     >nuget, search, Sys.IdentityModel.Token.Jwt, and install this package
+
+    if "the key size must be greater than: '512' bits, key has '232' bits. (Parameter 'keyBytes')"
+    appears then try lengthening the TokenKey in appsettings.dev.json by generating randome text by "openssl rand -base64 64" command
