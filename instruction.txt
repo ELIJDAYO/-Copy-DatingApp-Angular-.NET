@@ -90,3 +90,6 @@ Section 4
 
     if "the key size must be greater than: '512' bits, key has '232' bits. (Parameter 'keyBytes')"
     appears then try lengthening the TokenKey in appsettings.dev.json by generating randome text by "openssl rand -base64 64" command
+
+    to install the JwtBearerDefaults package, >nuget, RefreshMicrosoft.AspNetCore.Authentication.JwtBearer by Microsoft, install and put check the checkbox
+    
