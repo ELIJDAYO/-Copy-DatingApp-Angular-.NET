@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http'
 // manually added the code below
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavComponent } from './nav/nav.component';
 
 
 // every ang app has this @ decorator and responsible for loading the angular application
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
