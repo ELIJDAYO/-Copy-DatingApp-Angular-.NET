@@ -7,6 +7,7 @@ import {HttpClientModule} from '@angular/common/http'
 // manually added the code below
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
+import { FormsModule } from '@angular/forms';
 
 
 // every ang app has this @ decorator and responsible for loading the angular application
@@ -19,7 +20,8 @@ import { NavComponent } from './nav/nav.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   // Appcomponent is the entry point of app, and displaying component

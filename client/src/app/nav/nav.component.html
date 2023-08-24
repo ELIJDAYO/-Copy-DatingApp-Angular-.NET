@@ -13,13 +13,17 @@
           <a class="nav-link">Messages</a>
         </li>
       </ul>
-      <form class="d-flex">
+      <form #loginForm="ngForm" class="d-flex" (ngSubmit)="login()" autocomplete="off">
         <input
+          name="Username"
+          [(ngModel)]="model.username"
           class="form-control me-2"
           type="text"
           placeholder="Username"
         />
         <input
+        name="Password"
+        [(ngModel)]="model.password"
         class="form-control me-2"
         type="password"
         placeholder="Password"
