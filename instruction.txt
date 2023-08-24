@@ -94,4 +94,5 @@ Section 4
     to install the JwtBearerDefaults package, >nuget, RefreshMicrosoft.AspNetCore.Authentication.JwtBearer by Microsoft, install and put check the checkbox
     
 section 5
-    cd client, ng g component nav --skip-tests --dry-run, ng g component nav --skip-tests
+    cd client, ng g component nav --skip-tests --dry-run, ng g component nav --skip-tests (check the ng g -help)
+    cd client, ng g service _services/account --skip-tests --dry-run, ng g service _services/account  --skip-tests
