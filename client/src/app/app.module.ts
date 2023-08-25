@@ -8,6 +8,7 @@ import {HttpClientModule} from '@angular/common/http'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
 import { FormsModule } from '@angular/forms';
+import {BsDropdownModule} from 'ngx-bootstrap/dropdown'
 
 
 // every ang app has this @ decorator and responsible for loading the angular application
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    BsDropdownModule.forRoot()
   ],
   providers: [],
   // Appcomponent is the entry point of app, and displaying component
