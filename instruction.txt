@@ -101,3 +101,4 @@ section 5
  in the terminal, then update the app.module.ts import
 
     cd client, ng g c home --skip-tests
+    cd client, ng g c register --skip-tests
