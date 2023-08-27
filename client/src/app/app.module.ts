@@ -15,6 +15,7 @@ import { MemberListComponent } from './members/member-list/member-list.component
 import { MemberDetailComponent } from './members/member-detail/member-detail.component';
 import { ListsComponent } from './lists/lists.component';
 import { MessagesComponent } from './messages/messages.component'
+import { ToastrModule } from 'ngx-toastr';
 
 
 // every ang app has this @ decorator and responsible for loading the angular application
@@ -35,7 +36,10 @@ import { MessagesComponent } from './messages/messages.component'
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+    ToastrModule.forRoot({
+      positionClass: 'toast-bottom-right'
+    })
   ],
   providers: [],
   // Appcomponent is the entry point of app, and displaying component

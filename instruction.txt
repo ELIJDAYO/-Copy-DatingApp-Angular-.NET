@@ -105,3 +105,4 @@ section 5
 
 section 6
     cd client, ng g c members/member-list --skip-tests --dry-run, ng g c members/member-list --skip-tests, ng g c members/member-detail --skip-tests, ng g c lists --skip-tests, ng g c messages --skip-tests 
+    cd client, npm i ngx-toastr, then restart ng server
