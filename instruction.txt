@@ -99,3 +99,5 @@ section 5
 
     cd client, go to ngx-bootstrap component dropdowns API, copy paste the "ng add ngx-bootstrap  --component dropdowns
  in the terminal, then update the app.module.ts import
+
+    cd client, ng g c home --skip-tests
