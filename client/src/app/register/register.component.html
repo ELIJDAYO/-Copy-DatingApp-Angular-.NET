@@ -10,6 +10,14 @@
             >
     </div>
     <div class="mb-3">
+        <label for="">Who is your favorite user?</label>
+        <select name="" class="form-select" id="">
+            <option *ngFor="let user of usersFromHomeComponent" [value]="user.userName">
+                {{user.userName}}
+            </option>
+        </select>
+    </div>
+    <div class="mb-3">
         <input type="text"
             class="form-control"
             name="password"
