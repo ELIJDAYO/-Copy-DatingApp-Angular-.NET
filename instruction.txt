@@ -112,3 +112,4 @@ section 6
 
 section 7
     after updating Controller file, rerun API server
+    cd client, ng g c errors/test-error --skip-tests, 
