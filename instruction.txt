@@ -109,3 +109,6 @@ section 6
     cd client, ng g guard _guards/auth --skip-tests --dry-run, CanActivate, ng g guard _guards/auth --skip-tests
     cd client, npm install bootswatch, add new styles in angular.json and restart client
     cd, client, ng g m _modules/shared --dry-run, ng g m _modules/shared --flat --dry-run, ng g m _modules/shared --flat, --flat means not created in separated folder
+
+section 7
+    after updating Controller file, rerun API server
