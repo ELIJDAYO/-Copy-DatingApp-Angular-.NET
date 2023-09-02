@@ -5,7 +5,7 @@ import { Observable, map } from 'rxjs';
 import { AccountService } from '../_services/account.service';
 
 
-export const authGuard: CanActivateFn = (router, state) => {
+export const AuthGuard: CanActivateFn = (router, state) => {
   const accountService = inject(AccountService);
   const toastr = inject(ToastrService)
 
