@@ -116,3 +116,6 @@ section 7
     cd client, ng g interceptor _interceptors/error --skip-tests --dry-run, ng g interceptor _interceptors/error --skip-tests
     cd client, ng g c errors/not-found --skip-tests
     cd client, ng g c errors/server-error --skip-tests
+
+section 8
+    
