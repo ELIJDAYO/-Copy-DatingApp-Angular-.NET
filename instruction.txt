@@ -49,17 +49,11 @@ Section 2
 
 Section 3
     cd client, ng serve (to execute angular application)
-
     from extension download Angular Language Service
-
     add cors to user api will be accepted by the browser
-
     cd to API, and "dotnet watch run" for API req
-
     API returns variable name in camel case
-
-    cd Client
-    npm uninstall @schematics/angular
+    cd Client,npm uninstall @schematics/angular
     ng version
     npm install ngx-bootstrap@9
     ng add ngx-bootstrap
@@ -118,4 +112,5 @@ section 7
     cd client, ng g c errors/server-error --skip-tests
 
 section 8
-    
+    after updating the user entity, cd API, dotnet ef migrations add ExtendedUserEntity, because of unllable relational attribute AppUserId, dotnet ef migrations remove
+    updated user entity again, cd API, dotnet ef migrations add ExtendedUserEntity, (dotnet ef database update) | delete migration folder, dotnet ef database drop, dotnet ef migrations add ExtendedUserEntity
