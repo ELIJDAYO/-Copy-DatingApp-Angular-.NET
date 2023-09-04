@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230903134348_ExtendedUserEntity")]
+    [Migration("20230904021121_ExtendedUserEntity")]
     partial class ExtendedUserEntity
     {
         /// <inheritdoc />

@@ -112,6 +112,8 @@ section 7
     cd client, ng g c errors/server-error --skip-tests
 
 section 8
-    after updating the user entity, cd API, dotnet ef migrations add ExtendedUserEntity, because of unllable relational attribute AppUserId, dotnet ef migrations remove
+    after updating the user entity, cd API, dotnet ef migrations add ExtendedUserEntity, because of nullable relational attribute AppUserId, dotnet ef migrations remove
     updated user entity again, cd API, stop API server, dotnet ef migrations add ExtendedUserEntity, (dotnet ef database update) | delete migration folder, dotnet ef database drop, dotnet ef migrations add ExtendedUserEntity
-    go to https://json-generator.com/, then copy paste the content from the student-asset/jsongenerator, generate, copy json to clipboard and paste to Data/UserSeedData.json
+    go to https://json-generator.com/, then copy paste the content from the student-asset/jsongenerator, generate, copy json to clipboard and paste to Data/UserSeedData.json, dotnet ef migrations add ExtendedUserEntity
+    if you cannot see the seeded db because sqlite err, delete migrations folder, dotnet ef database drop, dotnet watch --no-hot-reload
+    go to postman, Section 8 folder, and set Type Get Users to Bearer Token with key {{token}}, login as whatever user
