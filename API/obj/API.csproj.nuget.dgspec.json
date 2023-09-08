@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\edayo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edayo\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -20,6 +20,7 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

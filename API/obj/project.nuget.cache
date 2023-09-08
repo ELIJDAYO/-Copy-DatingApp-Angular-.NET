@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JtVsDtRNAYC4mj0oRrwceMSwoyRpAfO6yBT01UqSgsqMgss8QHKnXoTqOfghqyKFWCUuuWoZXnMUXR/SZ1FnGw==",
+  "dgSpecHash": "MFMrudm0TDlACp2yZIg2REG5+iu0ekFs1Us/kFVBAGdpXsGcYPuOHxdNIX1/cVv2ORkB23bsGHikmtPmP2Ww8w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\edayo\\Documents\\angular\\DatingApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edayo\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\edayo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
