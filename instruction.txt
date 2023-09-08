@@ -117,3 +117,4 @@ section 8
     go to https://json-generator.com/, then copy paste the content from the student-asset/jsongenerator, generate, copy json to clipboard and paste to Data/UserSeedData.json, dotnet ef migrations add ExtendedUserEntity
     if you cannot see the seeded db because sqlite err, delete migrations folder, dotnet ef database drop, dotnet watch --no-hot-reload
     go to postman, Section 8 folder, and set Type Get Users to Bearer Token with key {{token}}, login as whatever user
+    crtl+shift+p, nuget, automapper.extensions...
