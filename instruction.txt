@@ -118,3 +118,6 @@ section 8
     if you cannot see the seeded db because sqlite err, delete migrations folder, dotnet ef database drop, dotnet watch --no-hot-reload
     go to postman, Section 8 folder, and set Type Get Users to Bearer Token with key {{token}}, login as whatever user
     crtl+shift+p, nuget, automapper.extensions...
+
+section 9
+    Postman, section 8 login, Get user by username, copy the JSON output, paste the content to json2ts.com, and copy result
