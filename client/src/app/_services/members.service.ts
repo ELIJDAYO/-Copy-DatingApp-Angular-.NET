@@ -13,7 +13,7 @@ export class MembersService {
 
   getMembers(){
     // get token + req which controller?
-    return this.http.get<Member[]>(this.baseUrl + 'users')
+    return this.http.get<Member[]>(this.baseUrl + 'users', this.getHttpOptions())
   }
 
   getMember(username: string){

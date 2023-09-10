@@ -130,4 +130,4 @@ For record purpose
       ngx-toastr                         13.2.1 -> 17.0.2         ng update ngx-toastr
 
 
-    ng g s _services/members --skip-tests
+    cd client, ng g s _services/members --skip-tests
