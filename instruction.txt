@@ -119,5 +119,15 @@ section 8
     go to postman, Section 8 folder, and set Type Get Users to Bearer Token with key {{token}}, login as whatever user
     crtl+shift+p, nuget, automapper.extensions...
 
-section 9
+section 9 (typescript)
     Postman, section 8 login, Get user by username, copy the JSON output, paste the content to json2ts.com, and copy result
+    cd client, ng g environments, if it does not work create manually
+For record purpose
+          Name                               Version                  Command to update
+     --------------------------------------------------------------------------------
+      @angular/cli                       14.2.11 -> 15.2.9        ng update @angular/cli@15
+      @angular/core                      14.3.0 -> 15.2.9         ng update @angular/core@15
+      ngx-toastr                         13.2.1 -> 17.0.2         ng update ngx-toastr
+
+
+    ng g s _services/members --skip-tests
