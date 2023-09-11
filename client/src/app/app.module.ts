@@ -22,6 +22,7 @@ import { ErrorInterceptor } from './_interceptors/error.interceptor';
 import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { ServerErrorComponent } from './errors/server-error/server-error.component';
 import { MemberCardComponent } from './member/member-card/member-card.component';
+import { JwtInterceptor } from './_interceptor/jwt.interceptor';
 
 
 // every ang app has this @ decorator and responsible for loading the angular application
@@ -49,7 +50,9 @@ import { MemberCardComponent } from './member/member-card/member-card.component'
     SharedModule
   ],
   providers: [
-    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true}
+    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true},
+    {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true}
+
   ],
   // Appcomponent is the entry point of app, and displaying component
   bootstrap: [AppComponent]

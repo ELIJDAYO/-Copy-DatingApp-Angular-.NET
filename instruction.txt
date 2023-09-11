@@ -132,3 +132,4 @@ For record purpose
 
     cd client, ng g s _services/members --skip-tests
     cd client, ng g c member/member-card --skip-tests
+    cd client, ng g interceptor _interceptor/jwt --skip-tests --dry-run, ng g interceptor _interceptor/jwt --skip-tests
